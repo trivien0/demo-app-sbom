@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:71ce4aab-eaee-4ec1-b045-d974aea1fcda",
+  "serialNumber" : "urn:uuid:f5dcea42-bc66-4def-9785-d8c4d707448b",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-06-02T02:19:11Z",
+    "timestamp" : "2025-06-02T02:47:32Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -48,10 +48,10 @@
     ],
     "component" : {
       "group" : "com.example",
-      "name" : "demo-app",
+      "name" : "demo-app-sbom",
       "version" : "1.0-SNAPSHOT",
       "licenses" : [ ],
-      "purl" : "pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -59,7 +59,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar"
     },
     "properties" : [
       {
@@ -74,7 +74,7 @@
   },
   "dependencies" : [
     {
-      "ref" : "pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     }
   ]

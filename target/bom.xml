@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:71ce4aab-eaee-4ec1-b045-d974aea1fcda" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:f5dcea42-bc66-4def-9785-d8c4d707448b" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2025-06-02T02:19:11Z</timestamp>
+    <timestamp>2025-06-02T02:47:32Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -19,12 +19,12 @@
         </hashes>
       </tool>
     </tools>
-    <component type="library" bom-ref="pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar">
       <group>com.example</group>
-      <name>demo-app</name>
+      <name>demo-app-sbom</name>
       <version>1.0-SNAPSHOT</version>
       <licenses/>
-      <purl>pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>http://maven.apache.org</url></reference></externalReferences>
     </component>
     <properties>
@@ -33,6 +33,6 @@
     </properties>
   </metadata>
   <dependencies>
-    <dependency ref="pkg:maven/com.example/demo-app@1.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/com.example/demo-app-sbom@1.0-SNAPSHOT?type=jar"/>
   </dependencies>
 </bom>
