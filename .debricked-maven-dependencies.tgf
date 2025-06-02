@@ -1,0 +1,26 @@
+1940311161 com.example:demo-app-sbom:jar:1.0-SNAPSHOT
+1515016092 junit:junit:jar:3.8.1:test
+421135185 org.apache.logging.log4j:log4j-core:jar:2.15.0:compile
+1731365835 com.unboundid:unboundid-ldapsdk:jar:3.1.1:compile
+1371182382 io.undertow:undertow-core:jar:2.2.13.Final:compile
+605472344 org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile
+1834961152 org.jboss.xnio:xnio-api:jar:3.8.4.Final:compile
+507575219 org.wildfly.common:wildfly-common:jar:1.5.2.Final:compile
+458624688 org.wildfly.client:wildfly-client-config:jar:1.0.1.Final:compile
+165687172 org.jboss.xnio:xnio-nio:jar:3.8.4.Final:runtime
+509632753 org.jboss.threads:jboss-threads:jar:3.1.0.Final:compile
+132423149 commons-collections:commons-collections:jar:3.1:compile
+745287727 org.apache.commons:commons-lang3:jar:3.11:compile
+#
+1940311161 1515016092 test
+1940311161 421135185 compile
+1940311161 1731365835 compile
+1371182382 605472344 compile
+1834961152 507575219 compile
+1834961152 458624688 compile
+1371182382 1834961152 compile
+1371182382 165687172 runtime
+1371182382 509632753 compile
+1940311161 1371182382 compile
+1940311161 132423149 compile
+1940311161 745287727 compile
