@@ -61,3 +61,8 @@ After the build, the SBOM will be located at:
 ```
 target/bom.xml        # or bom.json if using JSON format
 ```
+
+
+## License (Testing)
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
